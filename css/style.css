@@ -1,0 +1,330 @@
+/* UNI STYLE */
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+*{
+	margin: 0;
+	padding:0;
+	border: 0;	
+}
+
+body{
+	background: #959ead;
+	color: #67727a;
+	font-family: 'Alegreya', sans-serif;
+	margin: 0;
+}
+
+h2{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #f5f5f5;
+}
+
+h3{
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+body p{
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F5F5F5;
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+/* UNI STYLE END */
+
+/* HEADER */
+header{
+	background-color: #617B95;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo{
+	margin: 10px;
+	float: left;
+	width: 66px;
+	height: 66px;
+	background: url(../images/f-logo-orange-png-19.png) no-repeat center;
+}
+/* HEADER END*/
+/* NAVIGATION BAR */
+nav{
+	float: right;
+	padding: 25px 20px 0 0 ;
+}
+
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(../images/nav.png) center;
+}
+
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+
+#header-inner nav ul{
+	list-style-type: none;
+}
+
+#header-inner nav ul li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+#header-inner nav ul li a{
+	color: #F5F5F5;
+	text-decoration: none;
+}
+
+#header-inner nav ul li a:hover{
+	color: #C3D7DF;
+}
+
+.current{
+	color: #C3D7DF
+}
+/* NAVIGATION BAR END */
+
+/* BANNER */
+.banner{
+	width: 100%;
+	background-color: #6991AC;
+}
+
+.banner-inner{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.one-fourth{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#html{
+	background-color: #6DCDC0;
+}
+
+#css{
+	background-color: #A5A38F;
+}
+
+#seo{
+	background-color: #556976;
+}
+
+#social{
+	background-color: #FB8863;
+}
+
+.one-fourth i{
+	color: #F0F0F0;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
+
+.inner-wrapper{
+	width: 100%;
+	float: left;
+	background-color: #556976;
+}
+
+article{
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+#tablet{
+	background-color: #556976;
+	text-align: center;
+	margin: auto;
+}
+
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+#tablet2{
+	background-color: #6DCDC0;
+}
+
+#mobile{
+	background-color: #A5A38F;
+}
+
+#desktop{
+	background-color: #FB8863;
+}
+
+.inner-wrapper-2{
+	float: left;
+	width: 100%;
+	background-color: #556976;
+}
+
+.inner-wrapper-3{
+	float: left;
+	width: 100%;
+	background-color: #556976;
+}
+/*-- Main Body END --*/
+/*-- Three Columns --*/
+.one-third{
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+}
+
+#google{
+	background-color: #A2B1C1;
+}
+
+#marketing{
+	background-color: #BEB9AD;
+}
+
+#customers{
+	background-color: #AADCED;
+}
+/*-- Three Columns END--*/
+
+/*-- Footer --*/
+footer{
+	background-color: #617B95;
+	width: 100%;
+}
+
+footer .social{
+	list-style-type: none;
+	text-align: center;
+}
+
+footer .social li{
+	display: inline;
+}
+
+footer .social i{
+	font-size: 400%;
+	margin: 1%;
+	padding: 5%;
+	color: #C3D7DF;
+}
+
+footer .social i:hover{
+	color: #F5F5F5;
+}
+/*-- Footer END --*/
+/*-- Socket --*/
+.socket{
+	border-top: 1px solid #AADCD2;
+	background-color: #3C4850;
+	max-height: 55px;
+	margin: 0;
+}
+
+.socket p{
+	text-align: center;
+	padding: 0;
+}
+
+/*---- Media for responsive design ----*/
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 150%;
+	}
+	h3{
+		font-size: 125%;
+	}
+	p{
+		font-size: 120%;
+	}
+
+	header{
+		position: absolute;
+	}
+	#logo{
+		margin: 10px 0 20px 0px;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991AC; 
+		right: 20px;
+		top: 60px;
+		border: 2px solid #AADCD2;
+		border-radius: 4px;
+		width: 50%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	nav li{
+		text-align: center;
+		width: 100%;
+	}
+	.banner{
+		padding-top: 80px;
+	}
+	.one-fourth{
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i{
+		font-size: 350%;
+		padding: 4% 0 1% 0;
+	}
+	article{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	.hand-mobile{
+		display: none;
+	}
+	.one-third{
+		width: 100%
+	}
+	.social li i{
+		font-size: 180%;
+	}
+}
+
+/*---- Media for responsive design END----*/
